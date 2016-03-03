@@ -1,0 +1,26 @@
+.container {
+  height:100vh;
+}
+
+#Matrix{
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.nameOfGame {
+    font-family:'Amatic SC', cursive;
+    font-size: 100px;
+    text-align: center;
+    }
+
+td {
+    width:200px;
+    height: 200px;
+    border: 5px black solid;
+    }
+th {
+    font-family:'Amatic SC', cursive;
+    font-size: 30px;
+    }
