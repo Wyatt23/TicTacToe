@@ -15,7 +15,7 @@
     text-align: center;
     }
 
-td {
+.button {
     width:200px;
     height: 200px;
     border: 5px black solid;
@@ -24,3 +24,6 @@ th {
     font-family:'Amatic SC', cursive;
     font-size: 30px;
     }
+.A.xclaimed{
+    background-image: url("X&O/x1.jpg");
+  }
