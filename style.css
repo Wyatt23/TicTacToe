@@ -2,7 +2,7 @@
 .container {
   height:100vh;
 }
-gibody, table, #Matrix, .container,.nameOfGame{
+body, table, #Matrix, .container,.nameOfGame{
   background-image: url("DinerDeath.png");
 }
 
