@@ -4,10 +4,8 @@ secondPlayerGo=false;
 //variable of
 
 $(".button").click(function(){
-
-
   if (firstPlayerGo===true && secondPlayerGo===false){
-    $(this).text("X");
+    // $(this).text("X");
     $(this).addClass("xclaimed")
     firstPlayerGo=false;
     secondPlayerGo=true;
@@ -16,7 +14,7 @@ $(".button").click(function(){
     console.log(this)
   }
   else if(firstPlayerGo===false && secondPlayerGo===true){
-    $(this).text("O")
+    // $(this).text("O")
     $(this).addClass("oclaimed")
     firstPlayerGo=true;
     secondPlayerGo=false;
