@@ -1,26 +1,55 @@
+
 .container {
   height:100vh;
 }
+body, table, #Matrix, .container,.nameOfGame{
+  background-image: url("DinerDeath.png");
+}
 
 #Matrix{
-    margin: 0 auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 .nameOfGame {
-    font-family:'Amatic SC', cursive;
-    font-size: 100px;
-    text-align: center;
-    }
+  font-family: 'Grand Hotel', cursive;
+  color: rgba(47,14,8,.7);
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
 
-td {
-    width:200px;
-    height: 200px;
-    border: 5px black solid;
-    }
+}
+
+.button {
+  width:200px;
+  height: 200px;
+  border: 5px solid;
+}
 th {
-    font-family:'Amatic SC', cursive;
-    font-size: 30px;
-    }
+  font-family: 'Grand Hotel', cursive;
+  color: rgba(47,14,8,.7);
+  font-size: 30px;
+}
+
+.A.xclaimed {background-image: url("ImgTic/x.jpg");}
+.B.xclaimed{background-image: url("ImgTic/x1.jpg");}
+.C.xclaimed{background-image: url("ImgTic/x2.jpg");}
+.D.xclaimed{background-image: url("ImgTic/x3.jpg");}
+.E.xclaimed{background-image: url("ImgTic/x4.jpg");}
+.F.xclaimed{background-image: url("ImgTic/x5.jpg");}
+.G.xclaimed{background-image: url("ImgTic/x6.jpg");}
+.H.xclaimed{background-image: url("ImgTic/x7.jpg");}
+.I.xclaimed{background-image: url("ImgTic/x8.jpg");}
+
+
+.A.oclaimed{background-image: url("ImgTic/o1.jpg");}
+.B.oclaimed{background-image: url("ImgTic/o2.jpg");}
+.C.oclaimed{background-image: url("ImgTic/o3.jpg");}
+.D.oclaimed{background-image: url("ImgTic/o4.jpg");}
+.E.oclaimed{background-image: url("ImgTic/o5.jpg");}
+.F.oclaimed{background-image: url("ImgTic/o6.jpg");}
+.G.oclaimed{background-image: url("ImgTic/o7.jpg");}
+.H.oclaimed{background-image: url("ImgTic/o8.jpg");}
+.I.oclaimed{background-image: url("ImgTic/o9.jpg");}
